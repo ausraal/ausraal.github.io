@@ -1,0 +1,12 @@
+html {
+    margin-left: 2rem;
+}
+.Mphotos {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 0.5em;
+width: 100%;
+}
+.Mphotos img {
+    max-width: 200px;
+}

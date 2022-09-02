@@ -1,0 +1,12 @@
+.Aphot {
+  width: 100vw;  
+}
+.Ev_photos {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 20px;
+}
+.Ev_photos img {
+    max-width: 300px;
+    max-height: 300px;
+}
