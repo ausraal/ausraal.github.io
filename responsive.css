@@ -39,10 +39,7 @@ body {
 .toggle-button {
     display: none;
 }
-.btn {
-     min-width: 200px;
-    font-size: 20px;
-    }     
+    
    
 .Mphotos {
     grid-template-columns: 1fr 1fr 1fr 1fr;

@@ -1,9 +1,42 @@
-.Aphot {
-  width: 100vw;  
+
+
+.about_main {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-basis: 100%;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 200px;
+}
+.about_photo {
+  flex: 1 1 50%;
+  
+}
+.about_photo img {
+max-height: 400px;
+ width: 20vw;
+}
+.about_text p span {
+  color: blue;
+}
+.events {
+  display: flex;
+  width: 100vh;
+  height: 4rem;
+  gap: 1rem;
+}
+
+.News {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 80%;
+  margin: 0 auto;
+
 }
 .Ev_photos {
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(3 1fr);
 gap: 20px;
 }
 .Ev_photos img {
